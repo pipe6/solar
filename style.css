@@ -1,0 +1,128 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header {
+    background-color: #000;
+    color: #FFF73D;
+    padding: 40px;
+    text-align: center;
+    
+}
+
+.logo img {
+    width: 1000px; /* Ajusta el tamaño según tus necesidades */
+}
+
+.slogan {
+    margin: 10px 0;
+}
+
+.nav {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.cta-button {
+    background-color: #FFF73D;
+    color: #000;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 24px 60px;
+    cursor: pointer;
+    
+}
+
+.cta-button:hover {
+    background-color: #000;
+    color: #FFF73D;
+}
+.about {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    min-height: 15vh; /* Altura mínima de la ventana gráfica */
+    background-color: #ffd700; /* Fondo gris claro */
+    
+    
+}
+
+.about-box {
+    box-sizing: border-box;
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    max-width: 900px; /* Establece un ancho máximo si es necesario */
+    padding: 50px;
+    border: 1px solid #FFFFFF; /* Borde negro */
+    border-radius: 24px 60px;
+    background-color: #000; /* Fondo negro */
+    color: #ffd700; /* Texto amarillo */
+    margin-bottom: 100px; /* Espaciado inferior entre los cuadros */
+    text-align: center; /* Justifica el contenido */
+    font-size: 25px; /* Tamaño de la letra, ajusta según sea necesario */
+}
+
+
+.about-box h2 { 
+    margin-top: 0; /* Elimina el margen superior del título */
+    position: relative;
+    z-index: 1;
+}
+
+
+.about-box:not(:last-child) {
+  
+        text-align: center;
+        margin-bottom: 80px; /* Espacio entre cada caja de texto */
+    }
+
+
+.about-box h2 {
+    margin-top: 0; /* Elimina el margen superior del título */
+    position: relative;
+    z-index: 4;
+}
+
+.barra-social {
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+.barra-social a {
+    color: #ffd700;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.barra-social a:hover {
+    color: #000; /* Cambia el color al pasar el mouse sobre el enlace */
+}
+
+.barra-social img {
+    transition: color 0.3s;
+    width: 70px;
+    justify-content: center;
+    
+    
+
+}
+
+.color-h2 {
+    color:  #FFFFFF; /* Cambia a tu color deseado */
+}
+
+@media (max-width: 768px) {
+    /* Estilos para dispositivos más pequeños */
+}
+
